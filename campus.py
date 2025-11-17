@@ -14,7 +14,7 @@ class Campus:
         
     def listar_cursos(self):
         if self.cursos:
-            print(f"Cursos presentes no campus {self.nome}: ")
+            print(f"Cursos presentes no campus {self.nome}, até o devido momento: ")
             for curso in self.cursos:
                 print(f"{curso}")
         else:
@@ -52,7 +52,7 @@ def menu_interativo():
             if campus is None:
                 print("Crie um campus primeiro.")
             else:
-                campus.listar_cursos
+                campus.listar_cursos()
     
         elif opcao == '4':
             print("Saindo...")
