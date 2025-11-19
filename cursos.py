@@ -1,5 +1,3 @@
-from campus import Campus
-
 class CursosCampus:
     def __init__(self, id_curso, nome_curso):
         self.id_curso = id_curso

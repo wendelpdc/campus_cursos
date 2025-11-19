@@ -1,4 +1,4 @@
-from cursos import Campus
+from campus import Campus
 
 class MenuIterativo:
     def menu_iterativo():
