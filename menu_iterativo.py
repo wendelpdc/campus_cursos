@@ -1,4 +1,3 @@
-from campus import menu_iterativo
 from cursos import Campus
 
 class MenuIterativo:
@@ -41,4 +40,5 @@ class MenuIterativo:
                 break
 
 if __name__ == "__main__":
-    menu_iterativo()
+    menu = MenuIterativo()
+    menu.menu_iterativo()
